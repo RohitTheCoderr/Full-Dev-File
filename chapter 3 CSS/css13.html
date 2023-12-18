@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hidden properties</title>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    #box1{ 
+        background-color: red;
+        position:relative;
+        top: 40px;
+        z-index: 2px;
+    }
+    #box2{ background-color: green;
+        /* z-index: will work only for position: relative, absolute, fixed, sticky */
+          position:static;
+          top: 10px;
+          z-index: 10px; /* you can want to information so you can search about this*/
+
+        /* will hide the element and space */
+        /* display: none; */
+
+        /* will hide the element but show its empty space */
+        /* visibility: collapse; */
+        
+       
+    }
+    #box3{ background-color: blue;
+
+         /* z-index: will work only for position: relative, absolute, fixed, sticky */
+         /* position: relative;
+          top: 20px; */
+
+        
+       
+    }
+    #box4{ 
+        
+        background-color: yellow;
+       
+    }
+</style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

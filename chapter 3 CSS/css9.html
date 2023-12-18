@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors & more designing</title>
+    <style>
+        *{box-sizing: border-box;}
+#container{
+    border: 2px solid gray;
+    /* background-color: lightgreen; */
+    padding: 27px;
+    margin: 10px 250px;
+    width: 600;
+    /* float: right; */
+}
+#rohit{color: brown;
+ background-color: blanchedalmond; 
+float: center;
+padding: 10px;
+
+}
+#container2{ border: 2px solid gray;
+    background-color: lightgreen;
+    padding: 27px;
+    margin: 10px 10px;
+    width: 600;
+    /* float: right; */
+}
+#container3{ border: 2px solid gray;
+    background-color: lightgreen;
+    padding: 27px;
+    margin: 10px 10px;
+    width: 600;
+    /* float: right; */
+}
+    .all{
+        background-color: lightgreen;
+        border: 5px solid red;
+    }
+    .btn{background-color: rgb(154 221 228);
+        border: 2px solid black;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn:hover{ 
+      font-weight: bold;
+         background-color: chartreuse;
+        border: 2px solid black;}
+    a{ 
+        /* text-shadow: 10px; */
+        text-decoration: none;
+        text-decoration-color: aqua;
+    }
+    /* a:hover{color: black;
+    background-color: cornflowerblue;
+         }
+    a:visited{
+    background-color: blue;
+color: rgb(242, 0, 0); 
+       }*/
+       a:active{  
+        background-color: rgb(255, 0, 144);
+    color: brown;}
+    </style>
+</head>
+<body>
+    <div class="all">
+    <div id="container" class="count1">
+        <h3 id="rohit">This is my heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam pariatur, 
+        blanditiis voluptatibus quod iure rem tempore quia explicabo quibusdam? Cupiditate eveniet incidunt quod!
+        Impedit deserunt maxime dolores eos officiis voluptatem ipsa autem dicta quos!</p>
+        
+</div>
+<div id="container2" class="count2">
+    <h3 id="rohit2">This is my 2nd heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam pariatur, 
+        blanditiis voluptatibus quod iure rem tempore quia explicabo quibusdam? Cupiditate eveniet incidunt quod!
+        Impedit deserunt maxime dolores eos officiis voluptatem ipsa autem dicta quos!</p>
+
+</div>
+<div id="container3" class="count3">
+    <h3 id="rohit3">This is my 3rd heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam pariatur, 
+        blanditiis voluptatibus quod iure rem tempore quia explicabo quibusdam? Cupiditate eveniet incidunt quod!
+        Impedit deserunt maxime dolores eos officiis voluptatem ipsa autem dicta quos!</p>
+ <a href="https://google.com" class="btn">read more</a>
+ <button class="btn">contact me</button>
+</div></div>
+</body>
+</html>

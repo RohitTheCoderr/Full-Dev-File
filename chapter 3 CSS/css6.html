@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, width, borders anad background </title>
+    <style>
+  #fstpara{
+    background-color: lightpink;
+    height: 60px;
+    width: 150px;
+    border: 5px solid rgb(255, 0, 0);border-radius: 10px;
+    /* you can also write these type like below */
+      
+    /* border-width: 5px;
+    border-color: greenyellow;
+    border-style: double;
+    border-radius: 100px ; */  
+}
+  #secpara{ color: blue;
+    background-color: white;
+    height: 20px;
+    width: 190px;
+    border-top: 20px  solid darkorange;
+    border-bottom: 20px solid green ;
+     border-left: 20px solid rgb(186, 185, 255);
+     border-right: 20px solid rgb(187, 187, 228);
+     
+  }
+   .my{
+    color: rgb(0, 0, 0); background-color:lightblue;
+    /* height: 30px;
+    width: 200px; */
+  border-radius: 10px solid ; 
+    border-bottom: 10px solid rgb(0, 255, 0);
+    border-top: 10px solid rgb(242, 255, 0);
+    border-left: 10px solid red;
+    border-right: 10px solid rgb(0, 0, 255);
+      border-top-left-radius: 10px;
+     border-top-right-radius: 35px;
+     border-bottom-left-radius: 35px;
+     border-bottom-right-radius: 10px; 
+} 
+  #thirdpara{ color: darkturquoise; height: 2000px; 
+    width: 4500px;
+    background-image: url(https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+     border: 5px solid red;   
+       
+     /* background-repeat: repeat-x;    here if we write x than image is repeat in row */
+     /* background-repeat: repeat-y;    /* if we write y tha imgae is repeat in coloum wise.*/
+     background-repeat: no-repeat;  /* for no repeat 
+                                      /* but you need to both row and coloum so than only set a image. and image is aotomatic repeat row and coloum accoding to heigh and width*/
+                background-position: top left 23px ;         /*here set a image position, like centre, left bollom, right, top, you can set position with pixul(px) accoding to your need*/  
+
+     }
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p id="fstpara">This is paragraph</p>
+    <h3>This is my second heading</h3>
+    <!-- &nbsp; is used for a space between them you use 2 &nbsp than space 2 curser between them -->
+    <p id="secpara"> &nbsp;&nbsp;&nbsp;JAY JABAN JAY KISAN &nbsp;</p>
+   <br> 
+   <div> <SPAN class="my">&nbsp; &nbsp; About me  &nbsp;&nbsp;</SPAN> &nbsp;<span class="my">  &nbsp; &nbsp;About my father  &nbsp; &nbsp;</span> &nbsp;<span class="my"> &nbsp; &nbsp;About my mother  &nbsp; &nbsp;</span> &nbsp;<span class="my">  &nbsp; &nbsp;About my brother and sister &nbsp;  &nbsp;</span></div>
+   <h3>Thias is my third heading</h3>
+   <p id="thirdpara">This is my third paragraph</p>
+</body>
+</html>

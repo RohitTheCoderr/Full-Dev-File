@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive(size unit)</title>
+    <style>
+
+        html{
+            font-size:20px;
+        }
+.container{
+             font-size: 10px;
+          }
+        h1{
+            text-align: center;
+        }
+        #First{
+            font-size: 3em; /* em is response to container font-size */
+           padding: 3em;    /* here padding in response to font size of self item( but here font size is 30px because 3em means 3*container font size that is 30px)*/
+        }
+        #Second{
+            font-size: 3rem;  /* rem is response to html font-size here actual font size is 20px*3rem that is 60px (beacuse html font size is 20px)*/
+            padding: 3rem;    /* here padding in response to font size of self item( but here font size is 60px because 3rem means 3*60px self font size that is 180px)*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="First">This is First heading</h1>
+        <h1 id="Second">This is second heading</h1>
+        <h1 id="Third">This is Third heading</h1>
+    </div>
+</body>
+</html>

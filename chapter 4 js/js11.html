@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+
+    <style>
+
+        #btn{
+            color: white;
+            background-color: blue;
+            padding: 5px  10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #btn:hover{
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Browser Events
+    click
+    contexmenu
+    mouseover/mouseout
+    mousedown/mouseup
+    mousemove
+
+    submit
+    focus
+
+    DOMContentloaded
+
+    trasitionend -->
+
+ <div class="container">
+    <h1>This is my heading</h1>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga quos odio perspiciatis deleniti repellendus exercitationem optio, repellat, sunt, voluptatum quam omnis? Fugiat non rerum consequatur? Sequi vel voluptatem repudiandae, maxime natus sint tempora ducimus atque est libero quasi! Similique optio quasi iste, vel quam aspernatur est voluptatibus placeat sit quis, consectetur ut facere dolore officiis quibusdam labore rerum. Est nihil quae odio deleniti laborum dicta cumque aliquid quam veniam commodi voluptatum, facere eligendi molestias, incidunt possimus deserunt quis quaerat ducimus qui sapiente eum fugiat, quos doloribus modi. Nostrum doloremque sequi eaque exercitationem placeat nobis asperiores at distinctio dicta soluta. Dignissimos.</p>
+ </div>
+<button id="btn" onclick="toggleHide()">Show/Hide</button>
+
+<script>
+    // let para = document.getElementById('para');
+    // //  para.addEventListener('mousemove', function run(){
+    // //     alert('mouse inside')    // for alerting message
+    // //     // console.log('mouse inside')   // for message on console after click on para
+    // // });
+    
+    // para.addEventListener('mouseout', function run(){
+    //    alert('mouse now outside')    // for alerting message
+    // //    console.log('mouse now outside')  // for message on console after click on para
+    // });
+
+    function toggleHide(){
+        // let btn = document.getElementById('btn');
+        // let para = document.getElementById('para');
+
+  // here without take a variable out if condition is also run how its posible? ans= beacouse our id is a same word as a variable name so thats why its run without creat varible
+       if(para.style.display !='none'){
+        para.style.display = 'none';
+    }
+    else{
+        para.style.display = 'block';
+    }
+    }
+</script>
+</body>
+</html>

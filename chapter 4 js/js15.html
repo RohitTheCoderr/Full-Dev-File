@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Math Object</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>This is math Object</h1>
+
+</div>
+
+<script>
+    //printing the Math Object
+    let m =Math;
+    console.log(m);
+
+    // printing the contants from Math Object
+    console.log("The value of Math.E is ", Math.E);
+    console.log("The value of Math.PI is ", Math.PI);
+    console.log("The value of Math.LN2 is ", Math.LN2);
+    console.log("The value of Math.SQRT1_2 is ", Math.SQRT1_2);
+    console.log("The value of Math.LOG10E is ", Math.LOG10E);
+    
+  // Printing the Function from Math Object
+  let a= 34.65353;
+  let b= 345;
+
+  
+
+  console.log("The value of a and b is ", a,b);
+  // rounded= Returns a supplied numeric expression rounded to the nearest integer.
+  console.log("The value of a and b rounded is ", Math.round(a),Math.round(b));
+
+  //Math.pow = Returns the value of a base expression taken to a specified power.
+console.log("3 raised to the power of 2 is ", Math.pow(3,2));
+console.log("2 raised to the power of 12 is ", Math.pow(2,12));
+console.log("6 raised to the power of 3 is ", Math.pow(6,3));
+
+// Math.sqrt = Returns the square root of a number.
+
+console.log("the square root of 64 is  ", Math.sqrt(64));
+console.log("the square root of 6 is  ", Math.sqrt(6));
+console.log("the square root of 15 is ", Math.sqrt(15));
+
+// Math.ceil = Returns the smallest integer greater than or equal to its numeric argument.
+// Math.floor = Returns the greatest integer less than or equal to its numeric argument.
+console.log("5.8 rounded up to nearest integer is  ", Math.ceil(5.8));
+console.log("5.8 rounded down to nearest integer is  ", Math.floor(5.8));
+
+// Math.abs = Returns the absolute value of a number (the value without regard to whether it is positive or negative).
+// For example, the absolute value of -5 is the same as the absolute value of 5.
+console.log("Absolute value of 5.44 is  ", Math.abs(5.44));
+console.log("Absolute value of -5.44 is  ", Math.abs(-5.44));
+
+// Trinometric function
+console.log("The value of sin(pi) is ", Math.sin(Math.PI/2));
+console.log("The value of cos(pi) is ", Math.cos(Math.PI/2));
+console.log("The value of tan(pi) is ", Math.tan(Math.PI/2));
+
+// Min and Max Function
+console.log("Minimum value of4,5,6,7 is ", Math.min(4,5,6,7));
+console.log("Minimum value of12,6,23,7 is ", Math.max(12,6,23,7));
+
+
+// Generating a random number
+let R = Math.random();
+console.log("Any randon number ", R);
+
+// explanation Random number b/w (a,b)= a + (b-a)*Math.random();
+let A =1;     // if you want to another perticular b/w  any random num so you can only change the A and B value when ever you want to b/w random num 
+let B = 100;
+let r1_100 =A + (B-A)*Math.random();
+console.log("Any randon number b/w 1 to 100 = ",r1_100 );
+
+</script>
+</body>
+</html>

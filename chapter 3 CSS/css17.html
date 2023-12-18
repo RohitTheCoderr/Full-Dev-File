@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+
+        h1{
+ background-color: purple;
+ color: black;
+ border: 0.2rem solid rgb(255, 1, 1);
+ text-align: center;
+ font-weight: bold;
+        }
+
+div p{
+ color: black;
+    background-color: yellow;
+    font-weight: bold;
+}
+div li p{ color: blue;
+    background-color: red;
+}
+   /* div > p means under the  div tag just next element p then apply properties */
+div > p{
+    background-color: chartreuse;
+    color: aqua;
+}
+
+/* div + p means after the  div tag just next element p then apply properties */
+div + p{
+    color: white;
+    background-color: black;
+}
+    </style>
+</head>
+<body>
+    <h1>This is more on selector</h1>
+    <div class="container">
+    <div class="row">
+        <ul>
+            <li><p>this is another paragraph</p></li>
+        </ul>
+        <p>This is paragraph</p>
+    </div>
+   <p>This is another paragraph</p>
+
+</div>
+<p>this is outermost paragraph</p>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Javascript SetTimeOut and ClearTimeOut</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        Time now is <span id="time"></span>
+    </div>
+
+    <script>
+        console.log("This is tutorial 12");
+        // setTimeout --> Alllows us to run the function once after the interval of time
+        // ClearTimeout --> Alllows us to run the function repeatedly after the interval of time
+         function greet(name, byetext){ // here name byetext are parameter(agrument)   you can use single argument
+            console.log("Hello Rohit Good Morning."+name + " "+byetext); 
+         }
+    //   greet(); without time set
+// with time set here 1000 = 1 second.
+    // timeOut= setTimeout(greet, 5000,"How are you", "take care"); // here we use parameter for how are you.  you can use afer run in console like greet("How are you") and any name and any thinks etc
+    //  console.log(timeOut);
+    // clearTimeout(timeOut);  // cleartimeout is basically use for after some time autometically clear message and any things 
+    //  setTimeout(greet(), 5000, "rohit", "arayn");   // wrong as it is calling the function greet() inside setTimeout you can see uper calling function inside setTimeout 
+
+//    intervalid = setInterval(greet, 2000, "rohit", "sojhan");  // interval is use for a same message return again and again
+//     clearInterval(intervalid);   // for clearinterval
+
+    function displayTime(){
+        time =new Date();
+        console.log(time);
+        document.getElementById('time').innerHTML = time;
+    }
+    setInterval(displayTime, 1000);
+       </script>
+</body>
+</html>

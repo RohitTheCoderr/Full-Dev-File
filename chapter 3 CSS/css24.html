@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Tutorial</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 1px;
+        }
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: blue;
+   height: 80vh;
+   width: auto;
+ }
+  .box{ display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    color: green;
+    border-radius: 5px;
+    border: 2px solid brown;
+    height: 200px;
+    width: 200px;
+    /* transform: rotate(45deg); */
+    transition: all 2s ease-in-out;
+    
+  }
+  .box:hover{
+    background-color: black;
+    /* transform: rotate(45deg); */
+    transform:scale(2);
+
+  }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="box">This is Rohit </p>
+    </div>
+</body>
+</html>

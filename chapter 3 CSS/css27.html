@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid spaning</title>
+    <style>
+ .spaning{
+    display: grid;
+ grid-template-columns:repeat(4, 1fr);
+ grid-template-rows: repeat(3, 2fr);
+ /* grid-column-gap: 3rem;
+ grid-row-gap: 1rem; */
+grid-gap: 2rem;
+
+ }
+ .box{
+    border: 3px solid rgb(3, 3, 3);
+    background-color: rgb(229, 23, 248);
+    padding: 1rem;
+ }
+ .box:first-child{
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+    /* grid-row-start: 1; */
+    /* grid-row-end: 4 ; */
+    grid-column: 1/span 3;    /* use in a single line*/
+    grid-row: 3/span 2;
+ }
+    </style>
+</head>
+<body>
+     <div class="spaning">
+        <div class="box">item-1</div>
+        <div class="box">item-2</div>
+        <div class="box">item-3</div>
+        <div class="box">item-4</div>
+        <div class="box">item-5</div>
+        <div class="box">item-6</div>
+        <div class="box">item-7</div>
+        <div class="box">item-8</div>
+        <div class="box">item-9</div>
+        <div class="box">item-10</div>
+        <div class="box">item-11</div>
+        <div class="box">item-12</div>
+        <div class="box">item-13</div>
+        <div class="box">item-14</div>
+        <div class="box">item-15</div>
+        <div class="box">item-16</div>
+        <div class="box">item-17</div>
+        <div class="box">item-18</div>
+        <div class="box">item-19</div>
+        <div class="box">item-20</div>
+        <div class="box">item-21</div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox </title>
+    <style>
+     .container{
+        height: 100%;
+        width: 100%;
+        border: 2px solid darkblue;
+ /* Initialize the container as a flex box withought use display flex we can't used below all properties so it is important for using below tags */
+
+       display: flex;
+ /* flex properties for flex container */
+       
+        flex-direction: row;
+        flex-direction: column;
+
+        /* for reversing start */
+        flex-direction: row-reverse;
+       /* for wraping */
+        flex-wrap: wrap;
+        /* here flex- flow is used for flex direction and flex wrap in a single line  */
+        flex-flow: row wrap-reverse;
+        flex-flow: column wrap;
+        /* here set a element in center */
+        justify-content: center;
+        /* and here set space between element but not a side last(only own own set a space) */
+        justify-content: space-between;
+        /* but here set a space between element's all around side also mention (same only set a space own) */
+        justify-content: space-around;
+         /* but after used this style all element tag space together between equal */
+         justify-content: space-evenly;
+
+            /* item align set accouding to demand */
+            align-items: center;
+            /* align-items: end; */
+            /* align-items: baseline; */
+            /* align-items: start; */
+            /* align-items: stretch; */
+     } 
+     .item{
+        background-color: tomato;
+        border: 2px solid rgb(11, 226, 11);
+        margin: 10px;
+        padding: 3px;
+        height: 100px;
+        width: 100px;
+     }
+
+#item1{ 
+     /*flex properties for a flex items  */
+     /* it's use in a particular item  */
+     /* order: is use for a ordering of item in series which item;s order in more they move last in a series */
+     /*OR heigher the order, later it shows up in the container */
+    /* order: 2;   */
+
+
+    /* flex grow properties is use for a grow item as compare to otehr item when ever container is increase */
+    /* here item is grow 3*to other item */ 
+   /* flex-grow: 3;  */
+
+
+    /* but you want to decrease agrow as compare tom other then not use a nagative number  */
+    /* this time you can used other properties that is flex shrink for decrese a grow as compare to other itemm  */
+    /* flex-shrink: 3; */
+
+
+    /* when flex- direction is set to row in container than flex-basic will control width  */
+    /* when flex- direction is set to column in container than flex-basic will control height  */
+    /* you can see in the container flex direction in a row like (flex-flow: row wrap-reverse) */
+    flex-basis: 150px;
+
+}
+#item2{
+    order: 4;
+ flex: 2 3 200px; /* here 3 properties are use in a single line (flex grow shink basic) */
+
+ /* most usefull properties in flex that is align-self */
+ align-self: flex-start;
+ /* align-self: flex-end; */
+ /* align-self: center; */
+
+
+    /* here item is grow 3*to other item */
+    /* flex-grow: 2;  */
+    
+    /* here item is shink 5 to other item*/
+    /* flex-shrink: 5; */
+
+    }
+
+#item3{ order: 10;}
+#item4{ order: 3;}
+
+
+
+
+
+
+
+
+
+
+     .con{
+        height: 100%;
+        width: 100%;
+        /* border: 3px solid green; */
+        display: flex;
+        flex-flow: row wrap-reverse;
+        justify-content: center;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        
+        
+        
+
+    }
+.im{
+    border: 2px solid red;
+    margin: 5px ;
+    padding: 5px;
+    height: 300px;
+    width: 200px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>This is Flexbox tutorial</h1>
+    <div class="container">
+        <div class="item" id="item1">First box</div>
+        <div class="item" id="item2">Second box</div>
+        <div class="item" id="item3">Third box</div>
+        <div class="item" id="item4">Fourth box</div>
+        <div class="item" id="item5">fifth box</div>
+        <div class="item" id="item6">sexth box</div>
+    </div>
+    <h2>this is flexbox image</h2>
+    <div class="con">
+        <img src="free weight-300x200.jpg" alt="" class="im">
+        <img src="kettlebells-300x200 copy.jpg" alt="" class="im">
+        <img src="yoga-300x200.jpg" alt="" class="im">
+        <img src="pushups-300x200.jpg" alt="" class="im">
+    </div>
+</body>
+</html>

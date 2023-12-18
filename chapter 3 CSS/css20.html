@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+  .container{
+    display: flex;
+  }
+.card{
+    padding: 1rem 1rem;
+    margin: 1rem;
+    /* border: 0.2rem solid red; */
+    background-color: rgb(250, 201, 111);
+ /* formet of box shadow */
+/* box-shadow: offset-x offset-y color */
+/* box-shadow: offset-x offset-y blur-radius color; */
+/* box-shadow: offset-x offset-y blur-radius spread radius color; */
+        box-shadow: 0.5rem 0.8rem 0.8rem  rgb(252, 72, 72);    /*  1st px for x side 2nd px for y side and 3rd px for blur effect*/
+        /* box-shadow: -1rem -1rem 0.8rem  rgb(107, 106, 106);    -number is use for oppsite side effect means upper side and change angle */
+        /* box-shadow: -1rem 1rem 0.8rem  rgb(107, 106, 106);    -number is use for oppsite side effect means upper side and change angle */
+        /* box-shadow: 1rem -1rem 0.8rem  rgb(107, 106, 106);     -number is use for oppsite side effect means upper side and change angle */
+        /* box-shadow: 1rem 1rem 1rem 2rem rgb(107, 106, 106);      box-shadow: offset-x offset-y blur-radius spread radius color; */
+        /* box-shadow: inset 10px 8px 10px green;        inset is use for box in side shadow */
+         /* box-shadow: -10px 20px green, 5px -7px red;      for multiple color using */
+         /* box-shadow: -10px 20px 10px green, 5px -7px red;     for multiple color using */
+         /* box-shadow: -10px 20px 10px green, 5px -7px 10px blue;   for multiple color using */
+
+}
+
+.card h3{
+    color: white;
+    text-shadow: 0.1em 0.2em 2px rgb(255, 0, 0);   /* - number is also use here it's helpful for change angle*/
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="card" id="card1">
+        <h3>CARD-1 </h3> 
+       <p>Nowadays I am starting a web development couse from youtube teach by code with harry they are most understandable with enjoying. SO I am very excited for this learning couse on youtube I suggest you you should aslo learn this course from code with harry channel on youtube.  </p>
+    </div>
+    <div class="card" id="card2"> 
+        
+        <h3>CARD-2 </h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, qui, expedita dolore ex deleniti magnam, excepturi officiis necessitatibus sed harum laudantium iusto maxime. Minus deserunt ea nam eum nihil maxime!</p>
+    </div>
+    <div class="card" id="card3">
+        <h3>CARD-3</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, qui, expedita dolore ex deleniti magnam, excepturi officiis necessitatibus sed harum laudantium iusto maxime. Minus deserunt ea nam eum nihil maxime!</p>
+    </div>
+</div>
+</body>
+</html>

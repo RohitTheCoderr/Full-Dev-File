@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript | strings and string method</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Rohit's javascript tutorial in this web</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quis quo dolor molestiae et hic explicabo, maiores praesentium veniam voluptatem cumque sit? Dignissimos aliquam quidem, illo aliquid quibusdam veritatis ex officia provident sunt rerum!</p>
+    </div>
+
+    <script>
+        // var string="this is string";
+
+        var string='This is';   //you can make it using '' like we used ""
+        var name="rohit"; 
+        var message="rohit is a good debloper"; 
+        var channel= 'code with Rohit'
+        var temp= `${name} is a 'nice' person "and" he has a channel called ${channel}`  // if you want to use both '' and "" in a line so you can use between `` this symbol is present in keyboard near num 1 key you can see
+        // console.log(string + name + message);
+        console.log(temp);
+        console.log('Name= '+name);
+        console.log("message= " +message);
+        var Nlen= name.length; // if we want to known length of any variable so we can use variable.length like this 
+        var msglen=message.length;
+        console.log(`Length of name is = ${Nlen}`); // and print like this 
+        console.log(`Length of message is = ${msglen}`); // and print like this 
+
+//    console.log("Hello Rohit\nHow are you?") //here \n is a escape sequence character we are use for a new line
+// console.log("Hello Rohit\nHow are you? fine\t and you\b")  // here \t is use for tab size space and \b is use for a ? mark in a box
+var y = new String("this");
+console.log(y);
+document.getElementById('content').innerHTML = '<h3>This is an h3 heading</h3>'
+    </script>
+</body>
+</html>

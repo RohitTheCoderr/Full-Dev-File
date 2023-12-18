@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="16moble.css">
+    <style>
+        
+  .box{ color: white;
+    background-color: blue;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.40em;
+    display: none;
+  }
+  
+@media(min-width: 426px)and (max-width: 768px)
+{
+    #box2{
+        /* background-color: chocolate;
+        color: white; */
+        display: block;
+    }
+}
+@media(min-width: 769px)and (max-width:1440px)
+{
+    #box3{
+        /* background-color: chocolate;
+        color: white; */
+        display: block;
+    }
+}
+@media(min-width: 1441px){
+    #box4{
+        background-color: chocolate;
+        color: white;
+        display: block;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">I am Mobile</div>
+    <div class="box" id="box2">I am Tablet </div>
+    <div class="box" id="box3">I am Computer</div>
+    <div class="box" id="box4">I am Widescreen computer</div>
+</body>
+</html>

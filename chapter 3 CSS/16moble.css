@@ -1,0 +1,8 @@
+@media(max-width: 426px) 
+  {
+    #box1{ 
+        /* background-color: violet;
+        color: black; */
+        display: block;
+    }
+  }

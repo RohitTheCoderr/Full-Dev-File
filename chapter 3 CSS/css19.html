@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After pseudo selector</title>
+    <style>
+
+        body{
+
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        
+        header::before{
+            content: "";
+        
+            background: url(https://images.unsplash.com/photo-1689704059186-2c5d7874de75?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80) no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 53.7%;
+            z-index: -1;
+            opacity: 0.5;
+    }
+        
+        .navigation{
+            display: flex;
+            /* border: 3px solid green; */
+            font-size: 20px;
+
+        }
+        
+        li{ 
+            /* list-style: none is use for remove small circle */
+            list-style: none; 
+            margin: 20px;
+            padding: 5px;
+            /* border: 2px solid red; */
+            border-radius: 10px;
+
+        }
+        section{ height: 277px;
+         margin: 3px 240px;
+         display: flex;
+         flex-direction: column;
+         /* text-align: center; */
+         align-items: center;
+         /* border: 2px solid blue; */
+         justify-content: center;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        /* for set a content before and after use */
+        /* section::before{
+            content: "this is content"
+        } */
+
+        section::after{
+            content: "this is content"
+        
+        }
+
+        h3{
+            font-size: 3rem;
+          margin: 20px;
+        }
+        p{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <!-- <h1>Before and After pseudo selector</h1> -->
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">about</li>
+                <li class="item">Services</li>
+                <li class="item">Contact</li>
+            </ul>
+            
+        </nav>
+    </header>
+            <section>
+                <h3>Welcome to coding world</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat voluptas quasi quia repellendus necessitatibus, neque commodi velit tempora ex aut, numquam hic delectus voluptates optio exercitationem officia? Natus deserunt libero consequatur exercitationem sed enim?</p>
+            </section>
+ <hr>
+
+ <h1>Rohit kumar </h1>
+ <div>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit aut quisquam repellendus nulla nostrum neque aperiam ducimus cupiditate deleniti! Veniam dicta, debitis neque cumque asperiores atque exercitationem sint sit dolorum quo! Corrupti iure odit ex dolorum eius cupiditate sit vitae temporibus totam, veritatis natus vero iste doloremque sint commodi velit quisquam ullam adipisci quis? Sed numquam, quos ullam modi nulla, eum ratione fugiat distinctio, temporibus alias obcaecati vero quis laudantium dolores. Incidunt facilis accusamus eveniet placeat culpa ad, consequatur ratione nemo odio repellendus. Quas, animi iste. Nulla quam laudantium, beatae reprehenderit animi minima labore consequatur, doloribus esse repellendus ab reiciendis!
+ </div>
+</body>
+</html>

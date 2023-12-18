@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+<style>
+
+
+/* this is also you can used and try */
+ /* *{ box-sizing: border-box;
+    margin: 0px;
+    padding: 0PX;
+} */
+body{
+    background-color: rgb(169 209 63);
+}
+.container{ 
+        color: #fffd7f;
+        background-color: rgb(62 154 25);
+        border: 5px solid blue;
+        /* padding: 30px; */
+
+        /* we can set padding/ margin for top, bottom, left, right in a single single use like this */
+         /* padding-left: 20px;
+         padding-top: 10px; 
+         padding-bottom: 25px;
+         padding-right: 20;  */
+         
+        /* but you can use padding/ margin in all side in a single line than you can write like this */
+        /* padding: 10px 14px 20px 35px;     In formate padding : top right bottom left  */
+        /* padding: y(top/bottom) x(left/right) We can also set  padding/ margin these formate here y= top and bottom, x=left and right in equal work for example below like this   */
+        padding: 20px 30px;     /*  here  y(20px) is top and bottom , x(30px) is left right */
+         margin: 20px; 
+         border-radius: 35px; 
+        width: 438px;
+        height: 222px;
+        box-sizing: border-box;  /*for adjust itself width and height*/
+          }
+</style>
+
+</head>
+<body>
+   <div class="container">
+
+        <h3> This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatibus exercitationem? Unde rem veritatis maxime culpa temporibus dicta obcaecati quo.Lorem ipsum dolor sit amet consectetur adipi elit. Beatae tempore reiciendis et minima doloremque cum laudantium corrupti enim natus cupiditate.</p>
+    </div> 
+     <div class="container">
+
+        <h3> This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatibus exercitationem? Unde rem veritatis maxime culpa temporibus dicta obcaecati quo.Lorem ipsum dolor sit amet consectetur adipi elit. Beatae tempore reiciendis et minima doloremque cum laudantium corrupti enim natus cupiditate.</p>
+    </div>
+     <div class="container">
+        
+        <h3> This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, voluptatibus exercitationem? Unde rem veritatis maxime culpa temporibus dicta obcaecati quo.Lorem ipsum dolor sit amet consectetur adipi elit. Beatae tempore reiciendis et minima doloremque cum laudantium corrupti enim natus cupiditate.</p>
+    </div>
+        </html>
+</body>

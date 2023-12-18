@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{height: 3000px;
+        background-color: lightpink;}
+        .class{
+        display: inline-block;     /* for show/move all bos in horizontal side */ 
+        border: 2px solid red;
+        width: 150px;
+        height: 150px;
+        margin: 2px;
+        
+        }
+        /* Type of css position: static(default) absolute, relative, fixed, stacky; */
+        #box3{
+            /* relative position  me box ya kuch bhi only apne positon se hi move karega accounding to command like top left, right, bottom*/
+            /* absolute position  me box ya kuch bhi parent positon se yani suruaat se(parent container) hi move karega accounding to command like top left, right, bottom*/
+            /* fixed position  me box ya kuch bhi keble apne position me fixed ho jayega scroll karne ke bad bhi vo move nhi karega like top left, right, bottom basically these type of style is used for chat on your web page*/
+            /* stacky position  me box ya kuch bhi keble apne positon se upar chipak jayega scroll karne ke bad bhi vahi rahega accounding to command like top*/
+            /* position:  relative;  
+            top: 20px;
+            left: 10px; */
+            /* position: sticky;
+            top: 10px; */
+
+        position: fixed;
+        bottom: 20px;
+        right: 50%;
+        left: 50%;
+        border: none;
+        border-radius: 5px;
+        height:45px;
+        width: 390px; 
+        }
+        .chat1{ 
+            border: 2px solid red;
+            border-radius: 5px;
+          height:45px;
+        width: 390px; 
+        text-align: center;
+        text-decoration: solid red;
+        font-size: 23px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="class" id="box1">1</div>
+    <div class="class" id="box2">2</div>
+    <div class="class" id="box3"><input type="text" name="chat"class="chat1" placeholder="chat: Ask any question"></div>
+    <div class="class" id="box4">4</div>
+</div>
+</body>
+</html>

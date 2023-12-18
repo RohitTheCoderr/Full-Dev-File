@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating DOM</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="main" class="container">
+        <ui id="nav">
+            <li>Home</li>
+            <li>contact us</li>
+            <li>services</li>
+            <li>More about us</li>
+            <li>login</li>
+        </ui>
+    </div>
+<div class="container">
+    Another container
+</div>
+
+    <script>
+  // for reaching id main in body
+  let main = document.getElementById('main');
+  console.log(main);
+  
+  // for reaching id nav in body
+        let nav = document.getElementById('nav');
+        console.log(nav);
+
+ //  for reaching class container in body
+        let container = document.getElementsByClassName('container');
+        console.log(container);
+        // for container select
+let selc = document.querySelector(".container")
+console.log("selector return ", selc);
+//for only one nav li select
+let seln = document.querySelector("#nav>li")
+console.log("selector return ", seln);
+
+// for all query selector 
+let sel = document.querySelectorAll("#nav>li")  // here we all nav> li select
+console.log("selector return ", sel);
+
+
+    </script>
+</body>
+</html>

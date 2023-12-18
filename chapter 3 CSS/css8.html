@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    
+    <style>
+        *{ 
+             box-sizing: border-box;
+
+        }
+        body{font-family: Arial, Helvetica, sans-serif; }
+.contaioner{ 
+padding: 10px;
+    border: 7px solid red;
+    margin:33px  auto;
+    width: 900px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+ .item{ 
+    background-color: rgb(213, 158, 86);
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 20px 3px;
+     }
+.para{ color: black; background-color: #89ccc7;
+    border-radius: 10px;
+    border: 3px solid #3300f5;
+    height: auto;
+    padding: 5px;
+     }
+#fruit{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left ;  
+    width:  48.5%;
+    
+}
+#computer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     float: right;
+    /* clear: both; */
+     width: 48.5%;
+       }
+#stationary{
+     /* float: left;  */
+    clear: both;
+    width: 99.3%;
+      }
+
+#glasses{
+ /* padding: 5px; */
+    /* float: left; */
+    width: 99.3%;
+    clear: both;
+}
+.same{
+    color: darkgreen;
+}
+      p, h3{ 
+          text-align: right;    /* for text in start from right side*/
+          text-align: left;     /* for text in start from left side */
+         text-align: justify;     /*   for text is set accouding to space */
+    }
+          
+    h1{ color: rgb(9, 255, 0);
+        margin: auto;
+        width: 400px;
+    }
+    </style>
+</head>
+<body> 
+    <div class="contaioner">
+        <h1><u> Welcome to My Store</u> </h1>
+       <div id="fruit" class="item">
+            <h3 class="same"> Fruit</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deserunt, consequatur rerum beatae neque voluptatibus nulla commodi quis voluptate consectetur reiciendis modi inventore eaque numquam cumque et. In, iure quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deleniti iusto et soluta voluptates similique voluptatem, sequi assumenda nam, sapiente aliquid delectus corporis in architecto omnis reiciendis nisi commodi debitis inventore vitae laudantium facere nemo!</p>
+       </div>
+     <div id="computer" class="item">
+        <h3 class="same">Computer</h3>
+        <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deserunt, consequatur rerum beatae neque voluptatibus nulla commodi quis voluptate consectetur reiciendis modi inventore eaque numquam cumque et. In, iure quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deleniti iusto et soluta voluptates similique voluptatem, sequi assumenda nam, sapiente aliquid delectus corporis in architecto omnis reiciendis nisi commodi debitis inventore vitae laudantium facere nemo!</p>
+     </div>
+     <div id="stationary" class="item">
+        <h3 class="same">Stationary</h3>
+        <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deserunt, consequatur rerum beatae neque voluptatibus nulla commodi quis voluptate consectetur reiciendis modi inventore eaque numquam cumque et. In, iure quam!</p>
+     </div>
+     <div id="glasses" class="item">
+        <h3 class="same">Glasses</h3>
+        <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere deserunt, consequatur rerum beatae neque voluptatibus nulla commodi quis voluptate consectetur reiciendis modi inventore eaque numquam cumque et. In, iure quam!</p>
+     </div>
+    </div>
+</body>
+</html>

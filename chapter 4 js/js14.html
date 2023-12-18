@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+<body>
+    <div class="container">
+        This is arrow function tutorial
+
+    </div>
+
+    <script>
+
+        //Arrow function(=> is called arrow)
+    //    let greet = (name)=> {
+    //         console.log("Good morning","" +name);
+    //     }
+    //  greet("Rohit");
+    
+    
+    let greet = ()=> console.log("Good night");
+    
+    //     // this is simple function
+    //     // function greet(name){
+    //         //     console.log("good morning","" + name);
+    //         // }
+            greet();
+
+
+    setTimeout(()=>{
+        console.log("We are inside setTimeout");
+            },3000)
+
+            let obj1={
+                greeting:"Good morning ",
+                name: ["Rohit", "Sohan","mohan","vikas"],
+                speak(){
+      this.name.forEach((student)=> {        // here kisi bhi arrow function me this function use kiya h to vo parents ka this functuon hota hai but agar arrow function ke andar this function use nhi kiya to vo khud ke function ke andar ko call karega jaise ki yha hamne arrow function ka use kiya h aur this function se ham parents ke andar ka greeting ko call laga rahe h
+        console.log(this.greeting+ "kukroo koo "+student);
+      });
+            }
+            }
+
+            obj1.speak();
+
+            // let sum = (a,b)=>{
+            //     return a+b;
+            // }
+    
+            let sum2 = (a,b)=>a+b;
+            let half = a=> a/2;
+    </script>
+</body>
+</html>
