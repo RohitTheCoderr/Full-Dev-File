@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My website using css & javascript</title>
+    <link
+      rel="styl
+    stylesheet"
+      href="todoStyle.css"
+    />
+    <script src="todologic.js" defer></script>
+  </head>
+  <body>
+    <header class="header" id="homelink">
+      <nav class="navbar container">
+        <div class="logo">Logo</div>
+        <ul class="nav-items">
+          <li class="nav-item" ><a href="#homelink">Home</a></li>
+          <li class="nav-item"><a href="https://aapkisafalta.com/2019/03/how-to-make-to-do-list-hindi-meaning.html">About</a></li>
+          <li class="nav-item"><a href="#sign">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h1 id="main-heading">Manage your tasks</h1>
+        <button class="btn btn-headline">Learn More</button>
+      </div>
+    </header>
+    <section class="section-todo container">
+      <h2 id="plan">
+        Your plan for today ?
+      </h2>
+
+      <form class="form-todo">
+        <input type="text" name="" id="" placeholder="Add todo" />
+        <input type="submit" value="Add Todo" class="btn" />
+      </form>
+
+      <ul class="todo-list">
+        <li>
+          <span class="text">Do this do that</span>
+          <div class="todo-buttons">
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="section-signup container" id="sign">
+      <div class="rounder"></div>
+      <h2>Sign Up</h2>
+      <form class="signup-form">
+        <div>
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Type username"
+          />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Type password"
+          />
+        </div>
+        <div>
+          <label for="confirmPassword">ConfirmPassword</label>
+          <input
+            type="confirmpassword"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="ConfirmPassword"
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" />
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="phone" name="phone" id="phone" placeholder="Phone" />
+        </div>
+        <div>
+          <label for="about">About yourself</label>
+          <textarea
+            name="about"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Type Message"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

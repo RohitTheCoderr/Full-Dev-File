@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit's Fitness</title>
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <style>
+    /* header{ height: 120px;
+        width: auto;
+        background-color: aquamarine;
+    } */
+        /* css Reset */
+body{ 
+    width: 1518px;
+    height: auto;
+    color: white;
+    background-color: #c1bdb9;
+margin: 0px;
+padding: 0px;
+background-image: url('img/fitness image.webp') ;
+background-repeat: no-repeat;
+background-size: 1518px 780px;;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left{ 
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    border: 2px solid blue;
+}
+.left img{ width: 104px;
+    padding: 2px;
+    /* filter: invert(100%);   for convert image white to black and black to white */
+}
+.left div{
+    
+    text-align: center;
+    padding: 2px;
+    /* margin: -4px 0px 0px 0px; */
+}
+
+
+.mid{ 
+    display: block;
+    width: 40%;
+     border: 2px solid red;
+     margin: 20px auto;
+    
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    border: 2px solid green;
+    
+} 
+.navbar{
+display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none; /*for removing underline */
+    padding: 20px 15px;
+}
+.navbar li a:hover, .navbar li a.active{
+    
+    text-decoration: underline; 
+    color: #808080;
+}
+.btn { 
+    color: white;
+    background-color: orangered;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2px 2px 2px 2px;
+    padding: 4px 5px 3px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.btn:hover{ 
+    color: white;
+    background-color: rgb(102, 111, 208);
+    text-decoration: underline; 
+}
+.container{
+     border: 2px solid violet;
+    /* background-color: ; */
+    width: 450px;
+    height: 500px;
+    margin: 112px;
+    padding: 5px;
+    display: block;
+}
+h3{ 
+    color: black;
+    background-color: orangered;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 2px;
+    padding: 3px;
+}
+form{ 
+    margin: 37px 40px 35px 35px;
+    font-size: 18px;
+
+}
+.form{ color: orangered;}
+
+#submit{ 
+    width: 150px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 3px 0px 3px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+ }
+#submit:hover{ color: blue;
+    background-color: orangered;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    text-align: center;
+ }
+ input type:hover{cursor: pointer;}
+ .sub{ 
+    text-align: center;
+     
+     }
+     input{ 
+        text-align: center;
+     }
+     
+
+h2{
+    background-color: orangered;
+    border: 2px solod black;
+    border-radius: 3px;
+    margin: auto;
+    padding: 5px 41% 3px 40%;
+    font-size: 31px;
+}
+
+     .box{
+    border: 3px solid black;
+    background-color: grey;
+    padding: 20px;
+    
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+}
+.heading{
+     text-align: center;
+    color: black;
+    background-color: orangered;
+}
+
+.Services{
+    display: inline-block;
+    width:49.6%;
+    height: 321px;
+    border: 2px solid black;
+    font-size: 26px;
+    background-color:#808080 ;
+    /* padding: 5px; */
+    /* margin: 1% 10%; */
+    text-decoration: none;
+    /* box-sizing: border-box; */
+    /* padding: 20px; */
+}
+.ser{
+     text-align: center;
+    color: black;
+    background-color: orangered;
+    
+}
+.list1{ 
+    font-size: 18px;
+    padding: 1px 96px;
+    margin: 13px;
+}
+.Services img{
+    width: 100%;
+    height: 321px;
+}
+.rohit{
+    text-align: center;
+    color: black;
+    background-color: orangered;
+    margin: 10px; 
+}
+#Best{
+    color: black;
+    font-size: 30px;
+    background-color: rgb(255, 119, 0);
+    text-align: center;
+    margin: 20px auto;
+    padding: 3px;
+    
+}
+ .p{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    margin: 10px;
+    padding: 5px;
+}
+.allhead{
+    color: blue;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0px 2px 20px ;
+    padding: 5px 10px;
+}
+.anshu{
+    display: inline-block;
+    border: 2px solod black;
+
+    color: black;
+    padding: 10px;
+    width: 99%;
+    background-color: #808080;
+}
+
+.anshu p{
+   color: white;
+    font-size: 22px;
+    width: 99%;
+    padding: 20px;
+    height: 220px;
+    /* float: right; */
+}
+
+.anshu img{
+    padding: 0px 20px 0px 0px;;
+   float: left;
+}
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+      <div class="left"> 
+            <img src="img/hqdefault.jpg" alt="">
+        <div>Rohit's Fitness</div>
+      </div>
+        <!-- mid box for navigation/ navbar -->
+        <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="myprofile.html">About us</a></li>
+            <li><a href="#">Fitness calculator</a></li>
+            <li><a href="mycontact.html">Contact us</a></li>
+        </ul>
+    </div>
+        <!-- right box for button  -->
+        <div class="right">
+            <button class="btn"><a href="mycontact.html">Call us</a></button>
+            <button class="btn"> <a href="https://mail.google.com">Email us</a></button>
+        </div>
+    </header><br>
+    <div class="container">
+        <h3> Fill the form for joining here </h3>
+        <form action="php.com">
+           <div class="form">
+            Name: <input type="text" class="name" placeholder=" Enter your name">
+           </div><br>
+           <div class="form">
+            Age: <input type="number" class="number" placeholder=" Enter your age">
+           </div><br>
+           <div class="form">
+            Gender: male <input type="radio" name="my gender"> Female <input type="radio" name="my gender">
+            other <input type="radio" name="my gender">
+           </div> <br>
+           <div class="form">
+           Contact: <input type="tel" name="tel" placeholder="Enter your contact">
+         </div><br>
+         
+         <div class="form">
+          Email: <input type="email" name="email" placeholder="Enter your email">
+         </div> <br>
+         <div class="form">
+           Joining date: <input type="date" name="date" >
+         </div> <br>
+         <div class="form">
+            Nationality: <select name="Nationality" id="Nationality">
+                <option value="Indian" selected>indian</option>
+                <!-- here selected tag is use for a automatic selection in all option -->
+                <option value="Other">other</option>
+            </select>
+        </div> <br>
+        <div class="sub">
+        <input type="submit" name="submit" placeholder="submit" id="submit">
+    </div>
+        </form><br>
+    </div>
+        <h2>Catagary of Level</h2>
+
+            <div class="box">
+                <h4 class="heading">Basic Level</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum similique error 
+                    voluptatibus eum vel iure suscipit, veritatis et. Laboriosam ad voluptatem dolores.
+                    Eius, ipsa cumque quasi saepe aspernatur non ullam, impedit obcaecati aliquid quidem, 
+                    sapiente modi provident ducimus voluptas molestiae consequuntur expedita minus nobis?</p>
+        
+            </div>
+            <div class="box">
+                <h4 class="heading">Intermidiat Level</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum similique error 
+                    voluptatibus eum vel iure suscipit, veritatis et. Laboriosam ad voluptatem dolores.
+                    Eius, ipsa cumque quasi saepe aspernatur non ullam, impedit obcaecati aliquid quidem, 
+                    sapiente modi provident ducimus voluptas molestiae consequuntur expedita minus nobis?</p>
+        
+            </div>
+            <div class="box">
+                <h4 class="heading">Advance Level</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum similique error 
+                    voluptatibus eum vel iure suscipit, veritatis et. Laboriosam ad voluptatem dolores.
+                    Eius, ipsa cumque quasi saepe aspernatur non ullam, impedit obcaecati aliquid quidem, 
+                    sapiente modi provident ducimus voluptas molestiae consequuntur expedita minus nobis?</p>
+        
+            </div> 
+            <br><br>
+    <h2 >Our Services</h2>
+    <div class="Services">
+         <h4 class="rohit"> Services offered at a typical gym include: </h4>
+           <li class="list1"> Enough equipment</li>   
+           <li class="list1"> Physiotherapy</li>    
+           <li class="list1"> Tanning  </li>      
+           <li class="list1"> Training classes    </li>    
+           <li class="list1"> A swimming pool      </li>  
+           <li class="list1"> Drink products   </li>     
+           <li class="list1">  Lockers    </li>    
+           <li class="list1"> Dietary supplements   </li>     
+        
+    </div>
+    <div class="Services">
+    <img src="img/gyx.jpg" alt="Our services image">
+    </div>
+    <br>
+    <div>
+        <h4 id="Best"> Best Exercises to Build Muscle </h4>
+        <p class="p">If you’re dreaming of lean and muscular physic, then make sure your workout includes exercises to build muscle. Despite what many women think, building muscle doesn’t automatically make you look big and bulky. Strength training is key to looking strong and toned. It can also help you burn fat and lose weight in the long run.</p>
+        <p class="p">  There are many different exercises to help you achieve your dream body. Weightlifting may be a popular workout, but it’s not the only option! Here are 7 different exercises that you can do to burn fat and build muscle. At home or in the gym!</p>
+    </div>
+    <h4 class="allhead">Push-Ups</h4>
+    <div class="anshu">
+        <p>
+            <img src="img/pushups-300x200.jpg" alt="Push-Ups">
+        
+      
+        If you're looking for exercises to build muscle that doesn’t require any equipment, then push-ups are the way to go. While they mainly work your upper body (triceps, pectoral muscles, and shoulders), push-ups can also strengthen your core and lower back. Start with 5 or 10 each morning. Then, slowly add more every couple of days to build up your strength and endurance. If a full push-up is too difficult, you can also modify the pose to make things easier. Rest your hands on a higher surface or do a push-up on your knees instead.
+    </p>
+    </div>
+    <h4 class="allhead">Get Protein in Your Diet</h4>
+    <div class="anshu">
+        <p>
+            <img src="img/ketogenic-low-carbs-diet-food-selection-white-wall-300x200.jpg" alt="Protein">
+        
+         It’s no secret that protein is a key portion of a plan when trying to build muscle. Protein is full of amino acids, which are the building blocks of protein, and help to repair and maintain muscle tissue. And you can find tons of protein in most meat options. A specific type of meat that is really great for protein is steak and beef, as animal tissue has tons of protein and nutrients. So if you’re looking to build muscle, you’ll definitely need a steady source of protein. By far our favorite meat supplier is Omaha Steaks, the quality of their meat is great and they have tons of options, including seafood as well! Also buying in bulk is a great way to help you reduce your food budget while getting all the protein you need, and it gets delivered straight to your doorstep 
+    </p>
+    </div>
+    <h4 class="allhead">Free weight</h4>
+    <div class="anshu">
+    <p>
+            <img src="img/free weight-300x200.jpg" alt="Free weight">
+        
+    When you think of exercises to build muscle, strength training is probably the first thing that comes to mind. For your legs, try the Smith Machine, leg presses, and squats. To work your shoulders, do a couple of rows, overhead presses, and front raises. And don't forget your arms with tricep extensions and bicep curls! We put together a workout video targeting your upper body and chest to help strengthen those key muscles. The amount of weight you use will depend on your exercise. Instead of buying multiple free weights, consider investing in adjustable dumbbells. The Bowflex SelectTech 552i Dumbbells can be adjusted from 5 to 52.5 pounds. That replaces the need for 15 different weights! 
+</p> 
+</div>
+    <h4 class="allhead">Jumping Rope</h4>
+    <div class="anshu">
+       <p>
+            <img src="img/jumping rope-300x200.jpg" alt="Jumping Rope">
+      
+         Although it's mainly an aerobic exercise, jumping rope can also help you build muscle. It works your calves, hamstrings, glutes, forearms, should, and back all at once! Not to mention, you increase your agility, balance, and coordination. Essentially, your entire body is engaged when jumping rope, making it a great workout for all.</div>
+    </p>
+    <h4 class="allhead">Kettlebell Squats</h4>
+    <div class="anshu">
+    <p>
+            <img src="img/kettlebells-300x200.jpg" alt="Kettlebell Squats">
+        
+     Normal squats are great for building muscle in your lower body. But add a kettlebell to the mix, and you'll see even more progress! Just that little bit of weight will help you work your upper body and core. For a more intense workout, try a kettlebell swing instead. Kettlebells come in various sizes and weights. Kettlebell Kings has weights starting at 10lbs going all the way up to 100lbs.</div>
+    </p>
+    </div>
+    <h4 class="allhead">Yoga</h4>
+    <div class="anshu">
+    <p>
+            <img src="img/yoga-300x200.jpg" alt="Yoga">
+        
+     Not only is yoga great for flexibility, but it can also give you a muscular physique. High-intensity power yoga can even be just as beneficial as strength training if you know the right poses. Muscle building postures include side planks, chair pose, tree pose, lunges, and squats. If you’re planning on practicing yoga, you’ll need specific equipment. A padded yoga mat is a must. You can also add yoga blocks and straps to help you with those intense poses.
+    </p>
+    </div>
+    <h4 class="allhead">Burpees</h4>
+    <div class="anshu">
+    <p>
+            <img src="img/burpees-300x200.jpg" alt="Burpees">
+        
+    Burpees are a must if you want to know how to build muscle fast. This full-body exercise consists of planks, squats, and jumps, all of which work each of your muscle groups! If you do them long enough, you'll also get a cardio workout too. High-intensity interval training (HIIT) is a workout that usually includes burpees (along with many other exercises). You alternate certain exercises with periods of rest, which burns more calories than working out at a steady pace 
+</p>    
+</div>
+
+</body>
+</html>

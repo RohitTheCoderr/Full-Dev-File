@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            width: 100%;
+            height: 100%;
+            background: #000;
+            position: relative;
+        }
+
+        .ring{
+            width: 200px;
+            /* height: 200px; */
+            border: 5px solid black;
+            border-radius: 50%;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            grid-row: inherit;
+        }
+
+        .ring:nth-child(1){
+            border-bottom-width: 8px ;
+            border-color:red;
+            animation: rotatel 2s linear infinite;
+           
+        }
+        .ring:nth-child(2){
+            border-bottom-width: 8px ;
+            border-color: white;
+            animation: rotatel 2s linear infinite;
+            /* justify-content: center; */
+        }
+        .ring:nth-child(3){
+            border-bottom-width: 8px ;
+            border-color: green;
+            animation: rotatel 2s linear infinite;
+        }
+        /* .ring:nth-child(4){
+            border-bottom-width: 8px ;
+            border-color: green;
+            animation: rotatel 2s linear infinite;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <!-- <div class="ring"></div> -->
+    </div>
+</body>
+</html>
