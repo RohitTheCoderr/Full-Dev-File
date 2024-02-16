@@ -8,7 +8,7 @@
 //     heading1.style.color="violet";
 // }, 1000)
 
-// NOTE:- but agr ham ye bi chahe ki eske kuch time bad yani kkitne bhi second hamari marji kitne time bad dusri line bi kuch aur likh jaye to hame same use boi select karna padega fir us pr bi same process legana padega like
+// NOTE:- but agr ham ye bi chahe ki eske kuch time bad yani kkitne bhi second hamari marji kitne time bad dusri line bi kuch aur likh jaye to hame same use bi select karna padega fir us pr bi same process legana padega like
 
 // const heading2 =document.querySelector(".heading2")
 // setTimeout(()=>{

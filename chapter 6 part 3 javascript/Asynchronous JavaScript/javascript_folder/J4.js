@@ -35,7 +35,7 @@
 // //     console.log("Function is doing task 2");
 // // })
 
-// // esi tarah ham ese arror function me bi to bana sakte h na
+// // esi tarah ham ese arrow function me bi to bana sakte h na
 // myfun(()=> {
 //         console.log("Function is doing task 2");
 //     })
@@ -110,7 +110,7 @@ function getTwoNumbers(num1, num2, onSuccess, onFailure) {       // here we pass
 // isliye hamne condition me likh ki agr num ki datatype number hue to 1st callback chale jisme addtwonumber ki function call ho rhe h nhi to else jisme failfun call ho rha h 
 
 // note:- main function ko calling time ham sidhe ye dono funtion bhi callback me daal sakhte h i means pass kar sakte the like
-// aur sath me ham ese arror function bana ke daal sakte h aasani rhegi like
+// aur sath me ham ese arrow function bana ke daal sakte h aasani rhegi like
 
 getTwoNumbers(3, 5, (number1, number2)=>{ 
     console.log(number1 + number2); },
