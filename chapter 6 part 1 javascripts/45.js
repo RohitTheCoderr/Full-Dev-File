@@ -1,7 +1,7 @@
 //  lexical scope
 
 
- const myVar ="ROhit";  
+//  const myVar ="ROhit";  
  
 function myApp() {
       
@@ -31,4 +31,4 @@ myApp();
 //       fir ye move karte karte console.log(myVar) pr aayega jisme myVar ki value find karega usi function ke andar agar use usi function ke andar nhi mila myVar ki value to  vo function ke bahar
 //       check krega agar bahar bi nhi mila to error show krega but apne andar hi bane function me myVar ki value ko print nhi karega  
 // NOTE:- ( About myFun)    same yahi bat function myApp ke anadr bane function myFun par lagu hota h Agar use myVar ki value apne andar hi nhi mile to apne ke bahar yani myApp function ko check karega agr vha bhi nhi 
-//       mila to uske aur bahar check karega agar uske bad bhi nhi to error show karega but dusre function me nhi jayega check karne
+//       mila to uske aur bahar check karega agar uske bad bhi nhi to error show karega but dusre function me nhi jayega check karne like sibling function

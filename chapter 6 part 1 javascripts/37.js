@@ -19,7 +19,7 @@ const band ={
 // bandName="Rohit";
 // console.log(bandName);
 
-// YAHI KAAM HAM SHORT CUT ME JAR SAKTE H
+// YAHI KAAM HAM SHORT CUT ME KAR SAKTE H
 
 // let{ bandName, famouSong }= band;           // jis jis key name ka variable banaya h yaha usi ka value aayega esme baki sab vese hi rahenge
 // console.log(bandName, famouSong);

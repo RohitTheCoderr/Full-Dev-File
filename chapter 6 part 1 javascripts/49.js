@@ -17,7 +17,7 @@ function printFirstName(obj) {
     // console.log(obj.Age);           // maan lo age ko bhi pass kar du to esse undefined aayega kyoki person me age name ke koi bhi key nhi h
 }
 
-printFirstName(person);    // function ke obj name ke parameter me person name ke Object 
+printFirstName(person);    // function ke obj name ke parameter me person name ke Object pass kiye h
 
 
 //  parameters destructring  ki help se

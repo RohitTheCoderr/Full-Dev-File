@@ -18,7 +18,7 @@ const EvenNum= function(num1) {
 console.log(EvenNum(5));  
 
 // find a same number in array  using function expression 
-const findSameNum = function (Array=[], Num){
+const findSameNum = function (Array=[], Num){         // ham yha emply aaray parametter liye h but ham ek variable bi le sakte the baat same h like array 
     for(let i=0; i <= Array.length; i++){
     if(Array[i]== Num) {
         return `Same number is availbal in ${i} index`;

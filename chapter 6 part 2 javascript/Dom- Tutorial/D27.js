@@ -32,7 +32,7 @@
 
 // before
 // after
-// note:- before and after property is use for indeting eleement before of any element and and after of any elelment like
+// note:- before and after property is use for indeting element before of any element and and after of any elelment like
 // I want to insert element before todolist element so how we can do this
 
 const newTodoItem = document.createElement("li");    // yha ek li create kiya

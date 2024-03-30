@@ -23,7 +23,7 @@ const obj3 = {
     key5: "value5"
 }
 const obj4 ={...obj3}         // yha hamne clone kar diya h yha obj3 object ki memory address bhale hi share kar rhi h obj4 ko but agr ham ek dusre me koi key add ya remove kre to esse ek dusre pr koi effect nhi padega like 
-// const obj4 =Object.assign({}, obj3)    // ye bhi ek clone karne ka tarika h but ye old method h aur vala new method
+// const obj4 =Object.assign({}, obj3)    // ye bhi ek clone karne ka tarika h but ye old method h uper vala new method
 console.log("obj3 item is ",obj3); 
 console.log("obj4 item is ",obj4); 
 

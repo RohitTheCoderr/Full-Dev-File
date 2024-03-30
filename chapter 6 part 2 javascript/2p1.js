@@ -1,4 +1,4 @@
-// cokmpilation 
+// compilation 
 // code exacution
 // why compilation
 // how javascript code executes

@@ -46,13 +46,13 @@ const studentInfo= [
     {firstName: "Anshu", Class: "10th"}
 ]
 
-const newSeetStudentInfo= studentInfo.map((SDetails,) =>{
+const newSeetStudentInfo= studentInfo.map((SDetails) =>{
   return `${SDetails.firstName} , ${SDetails.Class}`
 })
 
 console.log(newSeetStudentInfo);
 
-//  i we want to use function declareaction function then we can do like
+//  i we want to use function expression then we can do like
 
 const newSInfo = studentInfo.map(function (StuDelails){
 return `${StuDelails.firstName } , ${StuDelails.Class}`

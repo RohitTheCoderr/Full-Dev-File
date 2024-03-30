@@ -26,7 +26,7 @@ const sepEven = numbers.filter( newFun =function(num){
 })
 console.log(sepEven);
 
-// ab fitler method ko expresssion function ke callback function me use krte h
+// ab fitler method ko arrow function ke callback function me use krte h
  const sepOdd = numbers.filter((num)=>{
     return num % 2 != 0;
  })

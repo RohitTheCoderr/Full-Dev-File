@@ -39,6 +39,7 @@
 // aap dekhen ki error show ho rha h 
 // but aap esme ek kaam kar skte h ye navItem kya h ye ek HTMLCollection h na aap es HTMLCollection ko change kr sakte h kese karenge dekhe
 //   eske liye ek method hota h dekhe
+
 let navItem =document.getElementsByTagName("a");         // pahle ahm ese const me le rhe the but yha ham let se lenge kyoki same variable name ko do bar use karenge isliye const ko to kar nhi sakte h na 
 navItem = Array.from(navItem);       // esa krne se ye ek array me change ho gya 
 console.log(Array.isArray(navItem));  //ese check krne ke liye ki ye array h ya nhi

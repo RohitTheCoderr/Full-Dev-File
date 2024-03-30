@@ -1,17 +1,17 @@
 // callback function
 
-// function myFun2() {
-//     console.log("Hello Rohit I am inside myFun2");
-// }
+function myFun2() {
+    console.log("Hello Rohit I am inside myFun2");
+}
 
 
-// function myFun(a) {
-//     console.log(a);
-//     console.log("hello world");  
-// }
-// // myFun([5,2,4,6,7]);        // yha aap a ki value kuch bhi pass kar sakte h like array usi tarah 
+function myFun(a) {
+    console.log(a);
+    console.log("hello world");  
+}
+// myFun([5,2,4,6,7]);        // yha aap a ki value kuch bhi pass kar sakte h like array usi tarah 
 // // myFun("abcb");             // String 
-// // myFun({name: "Rohit"});    // like yha ek Object h 
+// myFun({name: "Rohit"});    // like yha ek Object h 
 
 // //NOTE:-  aap es sab me se kuch bhi pass kara sakte h OR bi kuch 
 // // But kya aap ek function ko pass kara sakte h parameters me dekhte h 
@@ -28,8 +28,8 @@ function myMsg1(Name) {
 
 function myMsg2(callback) {               //  parameter ka name callback h
 console.log("Hello Rohit How aur you ?");
-// console.log(callback);          // yha callback ko print karane se pura ka pura myMsg1 function hi print ho gya but hamne to uski value print karani h means uske andar ki vakue to uske liye ham
-// callback();            // yha kya hua hamne callback ko call kiya but cakkback kya h niche hamne callback me myMsg1 ko callback me daal diya to isliye esse myMsg1 ko call chala jayega jisse uski value ek callback me aa jayegi aur yah print ko jayegi  
+console.log(callback);          // yha callback ko print karane se pura ka pura myMsg1 function hi print ho gya but hamne to uski value print karani h means uske andar ki vakue to uske liye ham
+callback();            // yha kya hua hamne callback ko call kiya but callback kya h niche hamne callback me myMsg1 ko callback me daal diya to isliye esse myMsg1 ko call chala jayega jisse uski value ek callback me aa jayegi aur yah print ko jayegi  
 callback("Aryan");    // Note:-  agar ham esme value pass harte h to vo myMsg1 ke Name parameter me jayega aur jaha name ko print hone ki commound hoga vaha Name ki value print ho jayegi
 }
 

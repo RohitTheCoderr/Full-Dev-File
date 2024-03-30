@@ -1,6 +1,6 @@
 // // Object inside array ka nested destructing karna
 // Note:- agar aapko kuch kam array me karna h to uske liye aapko []  symbol use karna padega aur
-//        agar aapko kuch kaam Object ke anger karna ho to uske lioye aap {} symbol use kare like aap liche uska use dekh sakte h
+//        agar aapko kuch kaam Object ke ander karna ho to uske lioye aap {} symbol use kare like aap liche uska use dekh sakte h
 
 
 const users= [
@@ -8,11 +8,9 @@ const users= [
 },
 {
     Name:"Anshu", class:"10th", contact: 8447700863, gender:"female"
-
 },
 {
     Name:"Aryan", class:"11th", contact: 8447700863, gender:"male"
-
 },
 {
     Name:"Smriti", Course:"BA", contact: 9654791770, gender:"female"
