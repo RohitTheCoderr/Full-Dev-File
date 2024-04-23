@@ -1,4 +1,4 @@
-// // Object inside array ka nested destructing karna
+// Object inside array ka nested destructing karna
 // Note:- agar aapko kuch kam array me karna h to uske liye aapko []  symbol use karna padega aur
 //        agar aapko kuch kaam Object ke ander karna ho to uske lioye aap {} symbol use kare like aap liche uska use dekh sakte h
 

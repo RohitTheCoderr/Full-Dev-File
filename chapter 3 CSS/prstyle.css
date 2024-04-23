@@ -2,7 +2,7 @@
     color: darkgoldenrod;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-h3{ cursor: ;
+h3{ cursor: pointer ;
     background-color: purple;
 }
 p{ border-style: solid; border-color: darkmagenta;
